@@ -3,7 +3,7 @@
           <div id="filter">
             <img
               id="previewImg"
-              src=".\src\assets\SnFy9OC.png"
+              src="\src\assets\SnFy9OC.png"
               alt="Placeholder"
             />
           </div>
