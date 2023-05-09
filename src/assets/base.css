@@ -1,0 +1,267 @@
+body {
+  background: url("https://imgur.com/fdnfNmz.png");
+  height: 100%;
+  width: 100%;
+  background-repeat: cover;
+  overflow-x: hidden;
+}
+.hrcenter {
+  margin: 0 auto;
+}
+#filter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  font-size: 45px;
+  font-weight: 800;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+.fa-download,
+.fa-refresh {
+  margin-right: 5px;
+}
+textarea {
+  resize: none;
+}
+@media (max-width: 992px) {
+  .textarea-container {
+    height: 300px;
+    position: relative;
+    padding-top: 80vh;
+  }
+}
+
+hr {
+  border-top: 20px #25528d solid;
+  opacity: 1;
+  width: 7em;
+}
+#preview {
+  overflow: hidden;
+}
+
+.navcontainer {
+  margin: 0 40% 0 40%;
+  font-size: 1.2em;
+}
+.nav-link {
+  border-radius: 0 !important;
+  border-bottom: 3px solid rgb(255, 255, 255) !important;
+}
+.ct-1 {
+  height: 640px;
+}
+
+.btn-custom {
+  background-color: #25528d;
+  color: #fff;
+}
+.btn-custom:hover {
+  background-color: #242731;
+  color: #fff;
+}
+router-link {
+  cursor: pointer;
+}
+router-link.unlink {
+  color: inherit;
+}
+router-link.unlink:hover {
+  color: #7a8bd6;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: black !important;
+  border-bottom: 3px solid #5264ae !important;
+}
+.logo {
+  content: url(https://codema.io/themes/codema/assets/images/codema_logo.svg);
+  height: 40px;
+  width: 120px;
+  filter: brightness(0) saturate(100%) invert(15%) sepia(23%) saturate(6632%)
+    hue-rotate(197deg) brightness(98%) contrast(96%);
+}
+.heading-type-1 {
+  font-family: Poppins, "sans-serif";
+}
+
+.btn {
+  font-family: Poppins, "sans-serif";
+}
+.group {
+  position: relative;
+  margin-bottom: 35px;
+  font-family: Poppins, "sans-serif";
+}
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+input:focus {
+  outline: 2px solid #5264ae;
+  border-radius: 10px;
+}
+
+/* LABEL ======================================= */
+label {
+  color: #999;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+input [type="range"] {
+  min-width: 100%;
+}
+/* active state */
+input:focus ~ label,
+input:valid ~ label {
+  top: -22px;
+  font-size: 14px;
+  color: #5264ae;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 300px;
+}
+.bar:before,
+.bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264ae;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  top: 10%;
+  border-radius: 10px;
+  left: 5px;
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+.slider,
+.slider2 {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 10px;
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#filter {
+  height: 480px;
+  width: 320px;
+  overflow: hidden;
+  object-fit: contain;
+  position: relative;
+}
+#filter img {
+  max-width: 320px;
+  max-height: inherit;
+  object-fit: contain;
+  position: relative;
+}
+
+#filter:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1) 15%,
+    rgba(0, 0, 0, 0) 50%
+  );
+  z-index: 1;
+}
+#filter:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: calc(100% - 55px);
+  left: 5%;
+  right: 5%;
+  bottom: 0;
+  background: url("logo-svg.svg");
+  background-size: 88%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
