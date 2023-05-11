@@ -3985,7 +3985,7 @@ var Nu = (() => {
     A
   );
 })();
-const ku = "SnFy9OC-8098bef4.png",
+const ku = "https://i.imgur.com/lQDcvmd.png",
   Xa = (A, e) => {
     const t = A.__vccOpts || A;
     for (const [r, n] of e) t[r] = n;
