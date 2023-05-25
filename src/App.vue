@@ -10,7 +10,7 @@ export default {
       position: "",
       phone_number: "",
       email: "",
-      imgSrc: "",
+      imgSrc: "https://codema.io/storage/app/media/mailfooter/codema.png",
       text: "Tutaj wygenerowana zostanie stopka...",
     };
   },
