@@ -110,7 +110,7 @@ export default {
                                     style="text-align: center; width: 171px"
                                   >
                                     <img
-                                      :src="'https://codema.io/themes/codema/assets/images/codema_logo.svg'" alt="logo Codema"
+                                      :src="imgSrc"
                                       v-if="imgSrc"
                                       id="profile_picture"
                                       class="sc-cHGsZl bHiaRe"
