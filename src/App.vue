@@ -109,7 +109,7 @@ export default {
                                     class="sc-TOsTZ kjYrri"
                                     style="text-align: center; width: 171px"
                                   >
-                                    <img placeholder="https://codema.io/storage/app/media/mailfooter/codema.png"
+                                    <img
                                       :src="'https://codema.io/storage/app/media/mailfooter/codema.png'" alt="logo Codema"
                                       v-if="imgSrc"
                                       id="profile_picture"
