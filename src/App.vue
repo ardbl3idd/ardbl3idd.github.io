@@ -685,7 +685,6 @@ export default {
               <span class="highlight"></span>
               <span class="bar"></span>
               <label>Link do zdjęcia</label>
-              Jeśli nie posiadasz zdjecia użyj tego linku <blockquote>https://codema.io/storage/app/media/mailfooter/codema.png</blockquote>
             </div>
           </form>
           <!-- <form class="form-group pb-2">
