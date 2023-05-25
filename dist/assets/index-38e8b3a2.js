@@ -4848,7 +4848,7 @@ function Ug(A, e, t, r, n, s) {
                                                 "img",
                                                 {
                                                   key: 0,
-                                                  src: "https://codema.io/storage/app/media/mailfooter/codema.png",
+                                                  src: "'https://codema.io/storage/app/media/mailfooter/codema.png'",
                                                   id: "profile_picture",
                                                   class: "sc-cHGsZl bHiaRe",
                                                   style: {
